@@ -1,5 +1,6 @@
 const CALENDAR = "primary";
-const TIME_ZONE = "America/New_York";
+const TIME_ZONE = "Asia/Seoul";
+//  America/New_York
 //  America/Los_Angeles
 //  America/Denver
 //  America/Chicago
@@ -8,7 +9,7 @@ const TIME_ZONE = "America/New_York";
 const WORKDAYS = [1, 2, 3, 4, 5];
 const WORKHOURS = {
   start: 9,
-  end: 13,
+  end: 18,
 };
 const DAYS_IN_ADVANCE = 28;
 //high numbered days in advance cause significant loading time slow down
